@@ -1,4 +1,29 @@
+5 pillars of DevOps
+1. Cloud
+2. Containers
+3. IaaC
+4. CI/CD
+5. Observability
+
+
+cloud : AWS
+Containers : Docker, K8s
 source code : Github
 configuration manager : Ansible
 CI/CD : Jenkins
-IaC : Vagrant 
+IaC : Vagrant, Ansible, Terraform  
+Observalibility : prometheus
+
+logs
+Elasticsearch - Logstash - Kibana, also called as ELK stack,
+
+metrics
+And similarly, for metrics, you have Prometheus and Grafana.
+
+
+traces
+ Jaeger zipkin
+
+
+Other tools :
+Continuse Deployment : Spinnaker (extension for Jenkins for hybrid cloud deployment)
